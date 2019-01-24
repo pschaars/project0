@@ -1,0 +1,51 @@
+$coffee: rgb(60,47,47);
+$mocha: rgb(111,68,54);
+$latte: rgb(190,155,123);
+$cream: rgb(255,244,230);
+$accent-blue: rgb(67,225,233);
+$accent-red: rgb(202,24,124);
+
+
+%block {
+  display: inline-flex;
+  width: 24%;
+  height: 200px;
+}
+
+#top-accent {
+  width: 100%;
+  height: 20px;
+  background-color: $accent-blue;
+}
+
+#first {
+  @extend %block;
+  background-color: $coffee;
+}
+
+#second {
+  @extend %block;
+  background-color: $mocha;
+}
+
+#third {
+  @extend %block;
+  background-color: $latte;
+}
+
+#fourth {
+  @extend %block;
+  background-color: $cream;
+}
+
+#bottom-accent {
+  width: 100%;
+  height: 20px;
+  background-color: $accent-red;
+}
+
+@media (min-width: 500px) {
+}
+
+@media (max-width: 499px) {
+}
