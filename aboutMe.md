@@ -1,0 +1,21 @@
+
+- resume
+  - linkedin
+  - skills
+- professional interests (why)
+  - r / python
+  - statistics
+  - web app development
+  - machine learning
+  - AI
+  - Natural Language Processing (NLP)
+- personal interests
+  - coffee
+  - reading
+  - gardening
+  - travel
+- family
+  - Vivian
+  - kids
+  - pets
+  - 
